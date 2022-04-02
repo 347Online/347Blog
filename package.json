@@ -1,0 +1,15 @@
+{
+  "name": "347blog",
+  "version": "2022.0.1",
+  "description": "Katie's Website codebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "347Online",
+  "license": "ISC"
+}
