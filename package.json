@@ -1,15 +1,25 @@
 {
   "name": "347blog",
   "version": "2022.0.1",
-  "description": "Katie's Website codebase",
-  "main": "index.js",
+  "description": "Katie's Website Codebase",
+  "main": "server/server.js",
   "scripts": {
+    "start":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "."
+    "url": "git+https://github.com/347Online/347Blog.git"
   },
   "author": "347Online",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/347Online/347Blog/issues"
+  },
+  "homepage": "https://github.com/347Online/347Blog#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
 }

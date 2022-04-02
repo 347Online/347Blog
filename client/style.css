@@ -1,0 +1,27 @@
+:root {
+  --main-text-color: lightgray;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(40,40,40);
+  color: var(--main-text-color);
+}
+
+h1 {
+  padding-left: .5rem;
+}
+
+h6 {
+  padding-left: 1rem;
+}
+
+a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
